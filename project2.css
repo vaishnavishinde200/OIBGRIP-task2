@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,300&family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(156, 107, 107);
+    width: 434px;
+    font-family: 'fira sans', 'sans-serif';
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(134, 128, 128); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', monospace;
+}
+
+.hello {
+    font-size: 65px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'fira sans', sans-serif;
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'fira sans', sans-serif;
+}
+
+.buttons {
+    margin-top: 34px;
+
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    font-style: white;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 14px;
+    padding: 7px 13px;
+    margin: 10px 0;
+    color: rgb(247, 248, 248);
+}
+
+.btn:hover {
+    color: dodgerblue;
+    /* font-style: whight; */
+    background-color: white;
+}
+
+.devpic {
+    width: 320px;
+}
+
+.contactform {
+    padding: 0 34px;
+    padding: 144px;
+    font-family: 'fira sans', sans-serif;
+}
+
+.contactform h1 {
+    font-family: 'Source Sans Pro', monospace;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.contactform form div {
+    padding: 10px o;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div div {
+    font-size: small;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailhelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 2px;
+    margin: 3px 0;
+}
+
+.blogItem {
+    margin: 20px;
+    font-family: 'fira sans', sans-serif;
+}
+
+.h1 {
+    font-family: 'fira sans', sans-serif;
+    margin: 23px;
+}
+
+.p {
+    font-family: 'Source Sans Pro', monospace;
+}
+
+.intro.h2 {
+    font-family: 'fira sans', sans-serif;
+    margin: 12px;
+}
+
+.intro.p {
+    font-family: 'Source Sans Pro', monospace;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    font-family: 'fira sans', sans-serif;
+}
+
+.hundered {
+    width: 265px;
+    background-color: rgb(253, 253, 72);
+}
+
+.fifty {
+    width: 125px;
+    background-color: blue;
+}
+
+.ts {
+    width: 75px;
+    background-color: rgb(218, 26, 183);
+}
